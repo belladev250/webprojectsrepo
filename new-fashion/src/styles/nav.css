@@ -1,0 +1,124 @@
+.link{
+    position: relative;
+    margin:2em;
+    margin-top: 2px;
+    transition: .4s ease-out;
+  
+    
+  }
+  .link::after{
+    border-top: 1px solid white;
+    border-color: white;
+    content: "";
+    position: absolute;
+    right: 100%;
+    left: 0;
+    bottom:-8px;
+    transition:  right .3s cubic-bezier(0,.5,0,1),border-color .4s ease-out;
+  }
+  
+  .link:hover::after{
+    right: 0;
+    border-color: gold;
+  }
+  .link:hover{
+    color:gold;
+  }
+  .links{
+  
+  position: relative;
+  display: flex;
+  list-style: none;
+  float: right;
+  
+  }
+
+  .navbar-nav{
+    margin-top: 1em;
+  
+  }
+
+  .navbar-brand img{
+    margin-top: -6em;
+    margin-left: -7em;
+    margin-bottom: -7em;
+    
+  }
+
+  .nav-link{
+    margin-left: 3em;
+    
+  }
+
+  
+
+
+  nav .navbar-nav li {
+    color: white !important;
+    
+  
+    }
+
+    nav .navbar-nav li:hover {
+      color: gold
+      
+    
+      }
+
+     
+
+      .navbar{
+        transition: 0.50s ease;
+      }
+
+      .shadow{
+        box-shadow: 0 3px 1rem white;
+      }
+      
+      /* .bga{
+        background-image: linear-gradient( black, #040624);
+      } */
+      .footer{
+        background-image: linear-gradient(black, #040624);
+        min-height: 50vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .content{
+      display: inline-block;
+      margin-top: 1.5em;
+      margin-left:3.5em;
+      margin-right:3.5em;
+      text-align: justify;
+      margin-bottom: 1em;
+     
+      
+     
+    }
+
+    .lists{
+      margin-top: 7px;
+      text-align: justify;
+      color:rgb(158, 149, 149)
+    }
+   li:hover{
+      color:white;
+    }
+
+    .list{
+      margin-top: 7px;
+      text-align: justify;
+      list-style-type: none;
+      color:white;
+      font-weight: 100;
+    
+      
+    }
+
+   
+
+ 
+ 
+  

@@ -1,0 +1,27 @@
+.header{
+    background-image: url(../images/home.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.about{
+    margin-top: 5em;
+    margin-right: 65em;
+    margin-left: 3em;
+    padding: 0.5em;
+    border: 1px solid white;
+    /* background-color: white; */
+}
+
+.iconic{
+    font-size: 2em;
+}
+
+.headers{
+    margin-right:34em;
+    margin-top: 6em;
+    color: white;
+}

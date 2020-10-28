@@ -1,0 +1,91 @@
+.login{
+    background-image: linear-gradient(rgb(47, 93, 192), #080c41);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.circle{
+    opacity:0.05;
+
+    
+}
+
+.box{
+    border:1px solid white;
+    height:470px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    margin-top: 3em;
+    margin-left:26em;
+    border-radius: 0.2em;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.20), 9px -10px 5px rgba(0, 0, 0, 0.034);
+
+   
+}
+
+.cir{
+ 
+    opacity: 0.8;
+}
+.user{
+   margin-top: 1em;
+   margin-left: -1em;
+   
+}
+
+.button{
+    background-color:rgb(64, 211, 155);
+    border: none;
+    pointer-events: none;
+    margin-top: 1.8em;
+    color: white;
+    width: 250px;
+     margin-left: -1em;
+     height: 35px;
+     box-shadow:0 5px 8px 0 rgba(5, 5, 5, 0.2) ;
+
+}
+
+.login-form{
+
+    position: relative;
+    height: 70px;
+    width: 50%;
+    margin-left: 6em;
+   
+    overflow: hidden;
+    
+}
+
+.login-form input{
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    outline: none;
+    font-size: 14px;
+    border: none;
+}
+
+.login-form label{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    bottom: 0px;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+   
+}
+
+
+.name-content{
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+}

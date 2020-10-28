@@ -1,0 +1,29 @@
+.bg{
+    background-image: url(./../images/jordan.jpg);
+    min-height: 78vh;
+    min-width: 100%;
+    background-position: center;
+   background-size: cover;
+   clip-path: polygon(0% 0%,100% 0%,104% 53%,50% 98%,0% 85%);
+   
+}
+
+.color{
+    color: white;
+    margin-top: 3em;
+    float: left;
+    margin-left: 2em;
+    
+}
+
+.img{
+    margin-top: 1em;
+   
+    float: left;
+  
+
+}
+
+h1{
+    margin-top: -2em;
+}

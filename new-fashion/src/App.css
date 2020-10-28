@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+
+}
+ 
+
+.logo{
+  margin-left: -23em;
+  /* margin-bottom: 10.3em; */
+}
+
+
+
+.para{
+  color:white;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: -23.5em;
+  margin-right: 3em;
+}
+
+.par{
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-left: -22.5em;
+  margin-right: 3em;
+}
